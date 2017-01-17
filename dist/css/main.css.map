@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.scss"],"names":[],"mappings":"AAEA,KACI,gBAAiB,CAEpB","file":"main.css","sourcesContent":["@import \"variables\";\n\nbody {\n    padding-top: 70px;\n    \n}"]}

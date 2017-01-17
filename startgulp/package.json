@@ -1,0 +1,22 @@
+{
+  "name": "startgulp",
+  "version": "0.0.1",
+  "description": "CDA Delivery Web",
+  "main": "index.js",
+  "scripts": {
+    "test": "Test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "cda_deliv"
+  },
+  "author": "Mike Grilli",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.0"
+  }
+}
