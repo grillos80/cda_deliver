@@ -10,11 +10,19 @@
     <meta name="author" content="">
 
     <title></title>
-
+    <script src="js/app.js"></script>
+    <!-- Typekit -->
+    <script src="https://use.typekit.net/oso1xaw.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <!-- Font Awesome CDN -->
+    <script src="https://use.fontawesome.com/fd472feebf.js"></script>
     <!-- Bootstrap Core CSS -->
     <link href="bs_css/bootstrap.min.css" rel="stylesheet">
-    <link href="dist/css/main.css" rel="stylesheet">
+    <!-- Normalize CSS -->
     <link href="dist/css/normalize.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="dist/css/main.css" rel="stylesheet">
+    
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -42,16 +50,19 @@
                 <a class="navbar-brand" href="#"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#">About</a>
+                        <a href="#about">About</a>
                     </li>
                     <li>
                         <a href="#">Services</a>
                     </li>
                     <li>
                         <a href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
                     </li>
                 </ul>
             </div>
@@ -61,22 +72,31 @@
     </nav>
 
     <!-- Page Content -->
-    <div class="container">
-
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h1></h1>
-                <p class="lead"></p>
-                <ul class="list-unstyled">
-                 <li></li>
-                </ul>
+    <div class="main-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <img src ="img/logo1.svg">
+                    <h1>Coeur d' Alene Delivery Service</h1>
+                </div>
             </div>
-        </div>
         <!-- /.row -->
-
+        </div>
     </div>
     <!-- /.container -->
-
+    <div id="about" class="headlines">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-left">
+                    <h1>About</h1>
+                    <img src="img/billface.jpg">
+                </div>
+            </div>
+        <!-- /.row -->
+        </div>
+    </div>
+    
+    
     <!-- jQuery Version 1.11.1 -->
     <script src="js/jquery.js"></script>
 
